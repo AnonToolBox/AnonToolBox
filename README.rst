@@ -15,7 +15,7 @@ easy to understand documentation.
 To get the AnonToolBox working, only a standard
 Python2.6 (or newer) runtime should be available.
 
-A local webserver supports with you with simple
+A local webserver supports you with simple
 to understand documentation/howtos.
 
 
@@ -24,8 +24,8 @@ Quickstart
 
 Download and buildout AnonToolBox
 
-* git co PATH_TO_GITHUB_REPO
-* cd anontoolbox
+* git co https://github.com/AnonToolBox/AnonToolBox
+* cd AnonToolBox
 * python bootstrap.py
 * bin/buildout
 
