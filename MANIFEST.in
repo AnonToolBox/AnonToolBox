@@ -1,0 +1,8 @@
+recursive-include tests *.*
+recursive-include docs *.*
+include bootstrap.py
+include buildout.cfg
+include Changelog
+include License
+include Makefile
+include README.rst
