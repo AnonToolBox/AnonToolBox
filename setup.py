@@ -62,10 +62,15 @@ setup(
     ],
     entry_points = {
         'console_scripts': [
+            'twitter=twitter.cmdline:main',
+            'twitterbot=twitter.ircbot:main',
+            'twitter-log=twitter.logger:main',
+            'twitter-stream-example=twitter.stream_example:main'
         ]
     },
     install_requires=[
           'setuptools',
+          'twitter'
     ]
 )
 
